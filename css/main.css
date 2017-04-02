@@ -1,6 +1,3 @@
-* {	
-	box-sizing: border-box;
-}
 
 main {
 	font-family: arial;
@@ -9,8 +6,7 @@ main {
 
 header {
 	background-color: orange;
-	margin-bottom: 20px;
-
+	margin-bottom: 40px;
 }
 
 header h1 {
@@ -22,32 +18,24 @@ header p {
 	margin-top: 0.5em;
 }
 
-.box {
-	border: 1px solid gray;
-	margin-bottom: 0.5em;  				/* space inbetween the box */
+.card {
+	border: 1px solid black;
+	margin-bottom: 20px;
 }
 
-	.image {
-		width:100%;
-	}
+.image {
+	width: 100%;
+}	
 
+.info {
+ 	padding: 20px;
+ }
 
-	.card {
-		border: 1px solid black;
-		margin-bottom: 20px;
-	}
+.info h3 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
 
-	.info {
- 			padding: 20px;
- 	}
-
-	.card h3 {
-	  margin-top: 0;
-	  margin-bottom: 0;
-	}
-
-	.card p {
-	  margin: 0.5em 0;
-	}
-
-/*--------------------------------------------------------*/
+.info p {
+	 margin: 0.5em 0;
+}
